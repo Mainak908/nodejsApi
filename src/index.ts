@@ -1,6 +1,6 @@
 import express from "express";
 import z from "zod";
-import { PrismaClient } from "./generated/prisma";
+import { PrismaClient } from "../generated";
 
 const prisma = new PrismaClient();
 
